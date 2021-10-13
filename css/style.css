@@ -93,12 +93,29 @@ a:hover{
 .projects__heading{
     font-size: 96px;
     line-height: 113px;
-    text-transform: uppercase;
+    text-transform: uppercase;  
 }
 .projects__body{
-    padding: 50px 0 30px;
+    padding: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
 }
 .projects__link{
     font-size: 24px;
     line-height: 29px;
+    padding-top: 30px;
+    color: #141414;
+    text-transform: uppercase;
+    position: absolute;
+}
+.projects__one{
+    align-items: flex-start;
+}
+.projects__two{
+    align-items: flex-end;
+}
+.projects__three{
+    align-items: center;
 }
